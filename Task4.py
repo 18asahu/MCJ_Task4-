@@ -2,7 +2,7 @@
 """
 Created on Mon Sep  2 14:46:10 2019
 
-@author: NEHA
+@author: ANWESHA
 """
 
 import numpy as np
@@ -25,10 +25,6 @@ for i in nums:
         a.append(i)
         
 plt.hist(a,num_bins, facecolor = 'red', alpha = 1.0, label = 'Gaussian Histogram')  #plots histogram
-
-#pdf = ((1/(2*(np.pi)*(sigma)**2)**0.5)*(np.exp((-(num_bins-mu)**2)/(2*(sigma**2)))))
-#plt.plot(15,((1/(2*(np.pi)*(sigma)**2)**0.5)*(np.exp((-(num_bins-mu)**2)/(2*(sigma**2))))) , linewidth=6, color = 'r', label = 'PDF')
-
 
 plt.title('Gaussian distribution')
 plt.legend()
